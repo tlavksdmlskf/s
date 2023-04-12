@@ -6,12 +6,12 @@ public class TNDJQ1 {
 		int b;
 		a=18;
 		b=99;
-		System.out.println("a´Â "+a+"ÀÌ°í b´Â "+b+"ÀÔ´Ï´Ù");
-		System.out.println("°ªÀ» ¹Ù²Ù°ÚÀ¾´Ï´Ù~");
+		System.out.println("aëŠ” "+a+"ì´ê³  bëŠ” "+b+"ì…ë‹ˆë‹¤");
+		System.out.println("ê°’ì„ ë°”ê¾¸ê² ìŠµë‹ˆë‹¤~");
 		int c=a;
 		a=b;
 		b=c;
-		System.out.println("a´Â "+a+"ÀÌ°í b´Â "+b+"ÀÔ´Ï´Ù");
+		System.out.println("aëŠ” "+a+"ì´ê³  bëŠ” "+b+"ì…ë‹ˆë‹¤");
 		int x =1;
 		int y=2;
 		int z=3;
