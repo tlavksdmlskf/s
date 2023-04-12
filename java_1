@@ -12,7 +12,17 @@ public class TNDJQ1 {
 		a=b;
 		b=c;
 		System.out.println("a는 "+a+"이고 b는 "+b+"입니다");
-		
+		int x =1;
+		int y=2;
+		int z=3;
+		int aa;
+		aa=x;
+		x=y;
+		y=z;
+		z=aa;
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
 	}
 
 }
