@@ -8,10 +8,9 @@ public class B {
 		Scanner sc  = new Scanner(System.in);
 		int a = sc.nextInt();
 		if (a%2==0){
-			System.out.println(a+"´Â Â¦¼ö¾ß");
+			System.out.println(a+"Â´Ã‚ Ã‚Â¦Â¼Ã¶Â¾ÃŸ");
 		}else {
-			System.out.println(a+"´Â È¦¼ö¾ß");
+			System.out.println(a+"Â´Ã‚ ÃˆÂ¦Â¼Ã¶Â¾ÃŸ");	
 		}
 	}
-
 }
