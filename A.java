@@ -9,11 +9,11 @@ public class A {
 		int num = sc.nextInt();
 		System.out.println(num);
 		if (num<18) {
-			System.out.println(num+"은 18보다 작음ㅋ");
+			System.out.println(num+"은 18보다 작다");
 		}else if (num>18) {
-			System.out.println(num+"은 18보다 큼");
+			System.out.println(num+"은 18보다 크다");
 		}else {
-			System.out.println(num+"은 18이랑 같음");
+			System.out.println(num+"은 18이랑 같");
 		
 		}
 
