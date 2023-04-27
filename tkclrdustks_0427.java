@@ -10,42 +10,38 @@ public class tkclrdustks_0427 {
 		int c;
 		while (true) {
 			System.out.println("------------------------");
-			System.out.println("1. °è»ê±â ½ÇÇà, 2. Á¾·á");
+			System.out.println("1. ê³„ì‚°ê¸° ì‹¤í–‰, 2. ì¢…ë£Œ");
 			System.out.println("------------------------");
 			a = sc.nextInt();
 			if (a==1) {
 				System.out.println("------------------------");
-				System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+				System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 				System.out.println("------------------------");
 				c=sc.nextInt();
 				System.out.println("------------------------");
-				System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+				System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 				System.out.println("------------------------");
 				b=sc.nextInt();
 				System.out.println("------------------------");
-				System.out.println("1. ´õÇÏ±â, 2. »©±â, 3. °öÇÏ±â, 4. ³ª´©±â");
+				System.out.println("1. ë”í•˜ê¸°, 2. ë¹¼ê¸°, 3. ê³±í•˜ê¸°, 4. ë‚˜ëˆ„ê¸°");
 				System.out.println("------------------------");
 				a = sc.nextInt();
 				System.out.println("------------------------");
 				if (a==1) {
 					System.out.println(b+" + "+c+" = "+(b+c));
-					continue;
 				}else if (a==2) {
 					System.out.println(b+" - "+c+" = "+(b-c));
-					continue;
 				}else if (a==3) {
 					System.out.println(b+" * "+c+" = "+(b*c));
-					continue;
 				}else if (a==4) {
 					System.out.println(b+" / "+c+" = "+(float)(b/c));
-					continue;
 				}else {
-					System.out.println("´Ù½Ã ÀÔ·ÂÇØÁÖ½Ê½Ã¿À.");
+					System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì‹­ì‹œì˜¤.");
 				}
 			}else if (a==2) {
 				break;
 			}else {
-				System.out.println("´Ù½Ã ÀÔ·ÂÇØÁÖ½Ê½Ã¿À.");
+				System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì‹­ì‹œì˜¤.");
 			}
 		}
 	}
