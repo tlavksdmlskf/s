@@ -13,7 +13,7 @@ public class A {
 		}else if (num>18) {
 			System.out.println(num+"은 18보다 크다");
 		}else {
-			System.out.println(num+"은 18이랑 같");
+			System.out.println(num+"은 18이랑 같다");
 		
 		}
 
