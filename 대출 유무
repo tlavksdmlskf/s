@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+struct Book
+{
+	char name[30];
+	char auth[30];
+	char pulb[30];
+	int borrowed;
+};
+
+int main()
+{
+	struct Book book_List[3];
+	
+	for (int i = 0; i < 3; i++)
+	{
+		printf("책 정보");
+		scanf("%s%s%s", book_List[i].name, book_List[i].auth, book_List[i].pulb);
+		book_List[i].borrowed = 0;
+
+	}
+
+	for (int i = 0; i < 3; i++)
+	{
+		printf("---------------\n");
+		printf("책의 정보 %s", book_List[i].name);
+		printf("책의 정보 %s", book_List[i].auth);
+		printf("책의 정보 %s", book_List[i].pulb);
+
+		if (book_List[i].borrowed == 0)
+		{
+			printf("안빌려짐\n");
+		}
+		else
+		{
+			printf("빌려짐");
+		}
+	}
+	return 0;
+}
